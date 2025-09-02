@@ -21,7 +21,7 @@
    - Network changes do not require manual reconfiguration of each physical device.  
    - Allows experimentation, traffic optimization, and integration with virtualized networks.
      
-![Comparação de Arquitetura](redes_sdn.png"Diagrama SDN")
+![Comparação de Arquitetura](redes_sdn.png "Diagrama SDN")
 ---
 
 ## 2. Mininet
