@@ -9,7 +9,7 @@
 - Designed for operators and service providers.  
 - Manages the network using protocols such as **OpenFlow**.  
 - Separates the control plane from the data plane.  
-- Supports multiple instances for high availability and scalability.  
+- Supports multiple instances for high availability and scalability.
 
 ---
 
