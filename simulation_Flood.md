@@ -1,6 +1,9 @@
 ## Network Topology
 For our network topology, we chose a common ladder (mesh-like) structure, where switches are interconnected in a stepwise fashion. This design is widely used because it provides scalability, redundancy, and clear hierarchical organization.
 
+---
+## Building the Topology
+
 ```bash
 sudo python3 topologia.py
 ...
