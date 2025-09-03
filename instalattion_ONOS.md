@@ -1,10 +1,10 @@
-# 🌐 ONOS and Mininet Setup Guide
+#  ONOS and Mininet Setup Guide
 
-## 📘 Introduction
+##  Introduction
 
 **ONOS (Open Network Operating System)** is an operating system for Software Defined Networking (SDN).
 
-### 🔹 Key Features:
+###  Key Features:
 - Acts as a centralized and distributed controller.  
 - Designed for operators and service providers.  
 - Manages the network using protocols such as **OpenFlow**.  
@@ -13,14 +13,14 @@
 
 ---
 
-## 🐳 1. Download ONOS Docker Image
+##  1. Download ONOS Docker Image
 ```bash
 sudo docker pull onosproject/onos
 ```
 
 ---
 
-## 🚀 2. Run ONOS Container
+##  2. Run ONOS Container
 ```bash
 sudo docker run -t -d \
   -p 8181:8181 \
@@ -30,29 +30,29 @@ sudo docker run -t -d \
   --name onos onosproject/onos
 ```
 
-### 🔎 2.1 View Logs
+###  2.1 View Logs
 ```bash
 sudo docker container logs onos
 ```
 
-### 📌 2.2 Get Container IP
+###  2.2 Get Container IP
 ```bash
 sudo docker container inspect onos
 ```
 
-### ⏹️ 2.3 Stop ONOS
+###  2.3 Stop ONOS
 ```bash
 sudo docker container stop onos
 ```
 
-### 🗑️ 2.4 Remove ONOS
+###  2.4 Remove ONOS
 ```bash
 sudo docker container rm onos
 ```
 
 ---
 
-## 🌐 3. Access Web Interface
+##  3. Access Web Interface
 
 Open in your browser:
 
@@ -65,7 +65,7 @@ http://<Your_IP_Address>:8181/onos/ui/login.html
 
 ---
 
-## ⚙️ 4. Activate Forwarding Components
+##  4. Activate Forwarding Components
 
 Activate the following components in ONOS:
 - OpenFlow Base Provider  
@@ -77,7 +77,7 @@ Activate the following components in ONOS:
 
 ---
 
-## 🖥️ 5. Access ONOS Container
+##  5. Access ONOS Container
 ```bash
 sudo docker exec -it onos bash
 ```
