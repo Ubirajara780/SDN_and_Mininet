@@ -21,7 +21,8 @@ mininet> pingall
 
 **Purpose:** Drop all traffic destined for a specific host or network segment, effectively making it unreachable without alerting the source. This simulates a denial-of-service by silently discarding packets.
 
-Process Flow:
+**Process Flow:**
+
 ![topologia ONOS](images/Blackhole.jpeg)
 
 
