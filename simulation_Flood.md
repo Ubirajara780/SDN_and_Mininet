@@ -3,9 +3,8 @@ For our network topology, we chose a common ladder (mesh-like) structure, where 
 
 ```bash
 sudo python3 topologia.py
-.
-.
-.
+...
+
 mininet> pingall
 ```
 ![topologia ONOS](images/topologia_no_Onos.jpeg)
@@ -22,13 +21,14 @@ mininet> pingall
 Process Flow:
 ![topologia ONOS](images/Flood.jpeg)
 
+In another terminal, we run the attack script:
+
 ```bash
 
-ctrl+shift+n
+
 sudo ./atq_macof.sh
-.
-.
-.
+...
+
 Enter the host to be attacked(ex: h1,h2,h3 ... ): #h5
 
 ```
