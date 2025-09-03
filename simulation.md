@@ -4,7 +4,7 @@ For our network topology, we chose a common ladder (mesh-like) structure, where 
 ```bash
 sudo python3 topologia.py
 ```
-!(topologia terminal) [images/topologia_no_terminal.jpeg]
+![topologia terminal](images/topologia_no_terminal.jpeg)
 
 
 
