@@ -16,7 +16,7 @@ sudo ./util/install.sh -n  # Install Mininet only (no OpenFlow/Wireshark)
 ## 2.1 Activate Mininet Network Using ONOS Controller
 
 ```bash
-sudo python mininet_remote_controller.py
+sudo sudo mn
 ```
 
 ## 3. Ping All Hosts
