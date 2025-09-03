@@ -5,7 +5,7 @@ For our network topology, we chose a common ladder (mesh-like) structure, where 
 sudo python3 topologia.py
 ```
 ![topologia terminal](images/topologia_no_terminal.jpeg)
-![topologia ONOS](images/topologia_no_ONOS.jpeg)
+![topologia ONOS](images/topologia_no_Onos.jpeg)
 
 
 
