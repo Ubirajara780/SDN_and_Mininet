@@ -47,3 +47,16 @@
 - Simulating attacks like **MAC flooding** or **blackhole**.  
 - Evaluating QoS or load-balancing policies.  
 - Teaching and demonstrating SDN concepts without physical hardware.
+
+**Required Specifications**
+- Python 
+- Mininet and ONOS
+- Docker
+
+
+**Files**
+- [Developed Codes](codes)
+- [Installation Onos](instalattion_ONOS.md)
+- [Installation Mininet](instalattion_Mininet.md)
+- [Flood Attack Simulation](simulation_Flood.md)
+- [Blackhole Attack Simulation](simulation_Blackhole.md)
