@@ -33,8 +33,8 @@ sudo ./atq_blackhole.sh
 ...
 
 ```
-***
-Redirect all traffic destined for a specific host (h6) through a tunnel from another host (h5), effectively isolating h6 from the rest of the network. This creates a “blackhole”, where h6 loses communication with all other hosts.
+
+*Redirect all traffic destined for a specific host (h6) through a tunnel from another host (h5), effectively isolating h6 from the rest of the network. This creates a “blackhole”, where h6 loses communication with all other hosts.*
 
 ---
 ## Attack Impact
