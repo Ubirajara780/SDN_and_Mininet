@@ -23,6 +23,7 @@ mininet> pingall
 Process Flow:
 ![topologia ONOS](images/Flood.jpeg)
 
+
 In another terminal, we run the attack script:
 
 ```bash
