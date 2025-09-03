@@ -11,10 +11,6 @@ sudo ./util/install.sh -n  # Install Mininet only (no OpenFlow/Wireshark)
 
 ## 2. Create a Network in Mininet
 
-- See examples and attacks: [Mininet Attacks Gist](https://gist.github.com/anselmobattis)
-
-## 2.1 Activate Mininet Network Using ONOS Controller
-
 ```bash
 sudo mn
 ```
