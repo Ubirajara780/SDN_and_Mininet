@@ -23,12 +23,32 @@ Process Flow:
 ![topologia ONOS](images/Flood.jpeg)
 
 ```bash
+
+ctrl+shift+n
 sudo ./atq_macof.sh
 .
 .
 .
-Enter the host to be attacked(ex: h1,h2,h3 ... ): 
-```
-### Blackhole Attack
+Enter the host to be attacked(ex: h1,h2,h3 ... ): #h5
 
-- Similar methodology, can be implemented by dropping traffic or rerouting flows.
+```
+![Script attack](images/flood_mac.jpeg)
+
+---
+## Attack Impact
+The attack can disrupt normal network operations, causing degraded performance, packet loss, or even temporary network outages. Depending on the type of attack, it may affect specific hosts, switches, or the entire topology, compromising connectivity and potentially exposing sensitive data.
+
+![Attack after](images/Onos_posatq.jpeg)
+
+```bash
+mininet> pingall
+```
+
+![Script attack conection](images/atq_viaterminal.jpeg)
+
+```bash
+mininet> h1 ping h5
+```
+
+![Script attack ping ](images/h1_ping_h5.jpeg)
+
