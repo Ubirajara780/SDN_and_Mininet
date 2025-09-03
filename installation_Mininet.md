@@ -9,17 +9,6 @@ git checkout -b 2.3.0  # Replace with desired version
 sudo ./util/install.sh -n  # Install Mininet only (no OpenFlow/Wireshark)
 ```
 
-## 6. Access ONOS Container
-
-```bash
-sudo docker exec -it onos bash
-root@container_id:~/onos# cd bin
-root@container_id:~/onos# ./onos -l karaf
-```
-
-- **User:** karaf  
-- **Password:** karaf
-
 ## 7. Create a Network in Mininet
 
 - See examples and attacks: [Mininet Attacks Gist](https://gist.github.com/anselmobattis)
