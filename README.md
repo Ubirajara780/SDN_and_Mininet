@@ -57,6 +57,6 @@
 **Files**
 - [Developed Codes](codes)
 - [Installation Onos](instalattion_ONOS.md)
-- [Installation Mininet](instalattion_Mininet.md)
+- [Installation Mininet](installation_Mininet.md)
 - [Flood Attack Simulation](simulation_Flood.md)
 - [Blackhole Attack Simulation](simulation_Blackhole.md)
